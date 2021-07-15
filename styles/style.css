@@ -1,0 +1,164 @@
+/* body fonts */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* heading properties */
+.heading{
+  
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+
+}
+/* navigation */
+nav li{
+    list-style: none;
+    margin-right: 20px;
+   
+
+}
+nav li:hover{
+    background-color: rgba(200, 174, 174, 0.568);
+    padding-left: 0,10px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #E02C6D
+    font-size: 20px;
+
+}
+nav > ul{
+    display: flex;
+justify-content: space-between;}
+    .flexible-container{
+        display: flex;
+
+        
+    }
+.top-nav{
+    display: flex;
+    padding-top: 1%;
+    
+    
+}
+/* top-section */
+    #rectangle{
+        background-color: #2D25A0;
+       max-width: 1024%;
+height: 677px;
+margin-top: 0px;
+
+margin-left: 0px;
+
+margin-top: 30px;
+margin-left: 0%;
+
+    }
+   
+    .half-width{
+        width: 50%;
+        padding-left: 10%;
+    padding-bottom: 8%;
+    }
+    .half-width img{
+      max-width: 556.01px;
+max-height: 438px;
+padding-bottom: 8%;
+margin-top: 28%;
+
+
+
+    }
+    .link-button{
+        text-decoration: none;
+        background-color: #E02C6D;;
+        padding: 20px 40px;
+        border-radius: 1px;
+        color: white;
+        font-weight: 0px;
+        font-size: 40px;
+        border-radius: 2px;
+        
+    }
+    .fas fa-sign-out-alt{text-decoration: none;
+        background-color: #E02C6D;;
+        padding: 20px 40px;
+        border-radius: 1px;
+        color: white;
+        font-weight: 0px;
+        font-size: 40px;
+        border-radius: 2px;
+
+    }
+    
+    h1{color: white;
+        font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px
+    }
+    .flexible-container{
+        align-items: center;
+    } 
+    /* player-section */
+    .player-list{
+max-Width: 
+330px;
+max-Height: 
+474px;
+  border: 2px solid white;
+position: relative;
+margin: 15px; overflow: hidden; 
+border: 1px;
+    box-shadow: 0px 10px 20px; }
+.player-photo{
+    width: 100%;
+    
+
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+}
+h2{
+    font-weight: 900px;
+}
+.player-details{
+   padding: 0px 10px;
+     width: 300px;
+    top: 0px;
+    
+    
+}
+p{
+    font-size: 15px;
+    color: rgb(75, 73, 73);
+}
+
+.link-button:hover{
+    background-color: #E02C6D; margin: 50px; padding: 50px;
+
+}
+.player-list:hover{
+    display: block;
+    transform: scale(1.1);
+  transform-origin: bottom;
+}
+/* another-section */
+.fifa{
+    text-align: center;font-size: 50px;
+}
+#logo{
+    justify-content: center;
+}
+/* footer */
+footer{
+    text-align: center;
+}
+
+
+
